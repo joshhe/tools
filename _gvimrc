@@ -1,0 +1,12 @@
+"color scheme
+colorscheme molokai
+let g:molokai_original = 1
+"Map for moving next and previous window
+map <silent> <C-n> <C-w><C-w>
+map <silent> <C-p> <C-w><S-w>
+map <silent> <S-Up> <C-w>+
+map <silent> <S-Down> <C-w>-
+map <silent> <S-Left> <C-w>>
+map <silent> <S-Right> <C-w><
+"font
+set guifont=Consolas:h11:cANSI
